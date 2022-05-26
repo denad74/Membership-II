@@ -54,13 +54,13 @@ const Signup = () => {
     });
 
     const handleChange = name => event => {
-        console.log(event.target.value);
+       // console.log(event.target.value);
         setValues({ ...values, [name]: event.target.value });
         
 }
     
     const clickSubmit = () => {
-    console.log(values);
+    //console.log(values);
     const user = {
         name: values.name || undefined,
         email: values.email || undefined,
